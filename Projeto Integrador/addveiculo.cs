@@ -19,10 +19,10 @@ namespace Projeto_Integrador
         }
 
         
-        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void UsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            usuarios add = new usuarios();
-            add.ShowDialog();
+            usuarios openform = new usuarios();
+            openform.ShowDialog();
         }
     }
 }

@@ -30,8 +30,8 @@ namespace Projeto_Integrador
 
         private void opçõesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            addveiculo add = new addveiculo();
-            add.ShowDialog();
+            addveiculo openform = new addveiculo();
+            openform.ShowDialog();
         }
     }
 }
